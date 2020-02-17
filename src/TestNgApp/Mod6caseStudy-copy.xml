@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Mod6 Case Study">
+	<test name="Mod6 Case Study Edureka">
+		<groups>
+			<run>
+				<exclude name="ReRegister">
+				</exclude>
+			</run>
+		</groups>
+		<classes>
+			<class name="TestNgApp.Mod6CaseStudy"></class>
+		</classes>
+	</test>
+	<test name="Mod6 Case Study Edureka with another user and same email id">
+		<groups>
+			<run>
+				<exclude name ="LoggingIn"></exclude>
+				<exclude name="Explore Courses"></exclude>
+				<exclude name="LogOut"></exclude>
+			</run>
+		</groups>
+		<parameter name="email" value="vinitbassi@gmail.com"></parameter>
+		<classes>
+			<class name="TestNgApp.Mod6CaseStudy"></class>
+		</classes>
+	</test>
+	<test name="Mod6 Case Study Edureka with second user and seperate email id">
+		<groups>
+			<run>
+				<exclude name ="LoggingIn"></exclude>
+				<exclude name="Explore Courses"></exclude>
+				<exclude name="LogOut"></exclude>
+			</run>
+		</groups>
+		<parameter name="email" value="shallupahwa@gmail.com"></parameter>
+		<classes>
+			<class name="TestNgApp.Mod6CaseStudy"></class>
+		</classes>
+	</test>
+	<test name="Mod6 Case Study Edureka with third user and seperate email id">
+		<groups>
+			<run>
+				<exclude name ="LoggingIn"></exclude>
+				<exclude name="Explore Courses"></exclude>
+				<exclude name="LogOut"></exclude>
+			</run>
+		</groups>
+		<parameter name="email" value="abc@gmail.com"></parameter>
+		<classes>
+			<class name="TestNgApp.Mod6CaseStudy"></class>
+		</classes>
+	</test>
+</suite>

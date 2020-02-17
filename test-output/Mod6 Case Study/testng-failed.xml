@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Mod6 Case Study]">
+  <parameter name="email1" value="vinitbassi@gmail.com"/>
+  <test name="Mod6 Case Study Edureka(failed)">
+    <classes>
+      <class name="TestNgApp.Mod6CaseStudy">
+        <methods>
+          <include name="closeAUT"/>
+          <include name="ReRegister"/>
+        </methods>
+      </class> <!-- TestNgApp.Mod6CaseStudy -->
+    </classes>
+  </test> <!-- Mod6 Case Study Edureka(failed) -->
+</suite> <!-- Failed suite [Mod6 Case Study] -->

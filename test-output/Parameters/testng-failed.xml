@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Parameters]" parallel="tests">
+  <parameter name="Username" value="shallupahwa@gmail.com"/>
+  <parameter name="Password" value="India15Great"/>
+  <test name="Testing Parameters Second time(failed)" parallel="tests">
+    <parameter name="Username" value="shallupahwa@gmail.com"/>
+    <parameter name="Password" value="India15Great"/>
+    <classes>
+      <class name="TestNgApp.Mod5AssignmentWithTestNg">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="OpenAUT"/>
+        </methods>
+      </class> <!-- TestNgApp.Mod5AssignmentWithTestNg -->
+      <class name="TestNgApp.Parameters">
+        <methods>
+          <include name="Login" invocation-numbers="0"/>
+          <include name="Logout"/>
+        </methods>
+      </class> <!-- TestNgApp.Parameters -->
+    </classes>
+  </test> <!-- Testing Parameters Second time(failed) -->
+  <test name="Testing Parameters(failed)" parallel="tests">
+    <parameter name="Username" value="shallupahwa@gmail.com"/>
+    <parameter name="Password" value="India15Great"/>
+    <classes>
+      <class name="TestNgApp.Mod5AssignmentWithTestNg">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="OpenAUT"/>
+        </methods>
+      </class> <!-- TestNgApp.Mod5AssignmentWithTestNg -->
+      <class name="TestNgApp.Parameters">
+        <methods>
+          <include name="Logout"/>
+        </methods>
+      </class> <!-- TestNgApp.Parameters -->
+    </classes>
+  </test> <!-- Testing Parameters(failed) -->
+  <test name="Testing Parameters form another class file(failed)" parallel="tests">
+    <parameter name="Username" value="shallupahwa@gmail.com"/>
+    <parameter name="Password" value="India15Great"/>
+    <classes>
+      <class name="TestNgApp.Mod5AssignmentWithTestNg">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="LogIn" invocation-numbers="0"/>
+          <include name="OpenAUT"/>
+        </methods>
+      </class> <!-- TestNgApp.Mod5AssignmentWithTestNg -->
+    </classes>
+  </test> <!-- Testing Parameters form another class file(failed) -->
+</suite> <!-- Failed suite [Parameters] -->

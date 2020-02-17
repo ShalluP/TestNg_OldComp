@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Running Myntra" duration-ms="31294" started-at="2019-09-06T10:50:17Z" finished-at="2019-09-06T10:50:48Z">
+    <groups>
+    </groups>
+    <test name="Running Myntra for men Jackets" duration-ms="31294" started-at="2019-09-06T10:50:17Z" finished-at="2019-09-06T10:50:48Z">
+      <class name="TestNgApp.Myntra">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:TestNgApp.Myntra@5f375618]" name="openBrowser" is-config="true" duration-ms="6323" started-at="2019-09-06T12:50:10Z" finished-at="2019-09-06T12:50:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:TestNgApp.Myntra@5f375618]" name="OpenBrowser" duration-ms="7480" started-at="2019-09-06T12:50:17Z" finished-at="2019-09-06T12:50:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="LogIn()[pri:0, instance:TestNgApp.Myntra@5f375618]" name="LogIn" duration-ms="2860" started-at="2019-09-06T12:50:24Z" finished-at="2019-09-06T12:50:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="SelectMen()[pri:0, instance:TestNgApp.Myntra@5f375618]" name="SelectMen" duration-ms="7158" started-at="2019-09-06T12:50:27Z" finished-at="2019-09-06T12:50:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectMen -->
+        <test-method status="PASS" signature="SelectJacket()[pri:0, instance:TestNgApp.Myntra@5f375618]" name="SelectJacket" duration-ms="12606" started-at="2019-09-06T12:50:34Z" finished-at="2019-09-06T12:50:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectJacket -->
+        <test-method status="PASS" signature="WishList()[pri:0, instance:TestNgApp.Myntra@5f375618]" name="WishList" duration-ms="1171" started-at="2019-09-06T12:50:47Z" finished-at="2019-09-06T12:50:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WishList -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:TestNgApp.Myntra@5f375618]" name="CloseBrowser" is-config="true" duration-ms="4101" started-at="2019-09-06T12:50:48Z" finished-at="2019-09-06T12:50:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- TestNgApp.Myntra -->
+    </test> <!-- Running Myntra for men Jackets -->
+  </suite> <!-- Running Myntra -->
+</testng-results>

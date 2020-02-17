@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Annotations" parallel="false">
+
+  <test name="Testing the Annotations">
+  
+    <classes>
+    
+      <class name="TestNgApp.AnnotationsDemo"/> //Class name =  package Name.class name
+      
+    </classes>
+    
+  </test>
+  
+  test <!-- Test -->
+  
+</suite> <!-- Suite -->

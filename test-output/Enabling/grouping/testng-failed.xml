@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Enabling/grouping]">
+  <test name="Enable/Group(failed)">
+    <groups>
+      <run>
+        <exclude name="contact"/>
+        <exclude name="LogIn"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestNgApp.EnableGrouping">
+        <methods>
+          <include name="Support"/>
+          <include name="LoginClick"/>
+          <include name="openAUT"/>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- TestNgApp.EnableGrouping -->
+    </classes>
+  </test> <!-- Enable/Group(failed) -->
+</suite> <!-- Failed suite [Enabling/grouping] -->

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Running Myntra">
+<test name ="Running Myntra for men Jackets">
+<classes>
+<class name="TestNgApp.Myntra">
+</class>
+</classes>
+</test>
+</suite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Testing Priority(failed)">
+    <classes>
+      <class name="TestNgApp.PriorityPractise">
+        <methods>
+          <include name="LogIn"/>
+          <include name="OpenBrowser"/>
+          <include name="openAUT"/>
+          <include name="LogOut"/>
+        </methods>
+      </class> <!-- TestNgApp.PriorityPractise -->
+    </classes>
+  </test> <!-- Testing Priority(failed) -->
+</suite> <!-- Failed suite [Suite] -->

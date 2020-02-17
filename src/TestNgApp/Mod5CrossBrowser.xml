@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="crossBrowserTesting on Mod 5" parallel="tests">
+	<test
+		name="Cross browser Testing on Mod 5 with setting Parameters">
+		<parameter name="Browser" value="Chrome" />
+		<parameter name="Username" value="vinitbassi@gmail.com"></parameter>
+		<parameter name="Password" value="India15Great"></parameter>
+		<classes>
+			<class name="TestNgApp.CrossBrowserOnMod5"></class>
+		</classes>
+	</test>
+
+	<test name="Cross Browser Testing Parameters Second time">
+		<parameter name="browser" value="Firefox"></parameter>
+		<parameter name="Username" value="vinitbassi@gmail.com"></parameter>
+		<parameter name="Password" value="India15Great"></parameter>
+		<classes>
+			<class name="TestNgApp.CrossBrowserOnMod5"></class>
+		</classes>
+	</test>
+	<test
+		name="Cross Browser Testing Parameters form another class file">
+		<parameter name ="Browser" value ="Chrome"/>
+		<parameter name="Username" value="vinitbassi@gmail.com"></parameter>
+		<parameter name="Password" value="India15Great"></parameter>
+		<classes>
+			<class name="TestNgApp.CrossBrowserOnMod5"></class>
+		</classes>
+	</test>
+
+
+</suite>

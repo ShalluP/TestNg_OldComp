@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Parameters" parallel = "tests">
+	<test name="Testing Parameters">
+		<parameter name = "Username" value = "shallupahwa@gmail.com"></parameter>
+		<parameter name = "Password" value = "India15Great"></parameter>	
+		<classes>
+			<class name="TestNgApp.Parameters"></class>
+		</classes>
+	</test>
+	
+	<test name="Testing Parameters Second time">
+		<parameter name = "Username" value = "shallupahwa@gmail.com"></parameter>
+		<parameter name = "Password" value = "India15Great"></parameter>	
+		<classes>
+			<class name="TestNgApp.Parameters"></class>
+		</classes>
+	</test>
+	<test name="Testing Parameters form another class file">
+		<parameter name = "Username" value = "shallupahwa@gmail.com"></parameter>
+		<parameter name = "Password" value = "India15Great"></parameter>	
+		<classes>
+			<class name="TestNgApp.Mod5AssignmentWithTestNg"></class>
+		</classes>
+	</test>
+	
+	
+</suite>

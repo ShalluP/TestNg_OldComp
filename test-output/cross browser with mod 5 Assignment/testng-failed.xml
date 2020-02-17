@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [cross browser with mod 5 Assignment]">
+  <parameter name="Username" value="shallupahwa@gmail.com"/>
+  <parameter name="Browser" value="Chrome"/>
+  <parameter name="Password" value="India15Great"/>
+  <test name="Cross Browser On Mod 5 Assignment(failed)">
+    <parameter name="Username" value="shallupahwa@gmail.com"/>
+    <parameter name="Browser" value="Chrome"/>
+    <parameter name="Password" value="India15Great"/>
+    <classes>
+      <class name="TestNgApp.Mod5AssignmentWithTestNg">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="LogIn"/>
+          <include name="OpenAUT"/>
+        </methods>
+      </class> <!-- TestNgApp.Mod5AssignmentWithTestNg -->
+    </classes>
+  </test> <!-- Cross Browser On Mod 5 Assignment(failed) -->
+</suite> <!-- Failed suite [cross browser with mod 5 Assignment] -->

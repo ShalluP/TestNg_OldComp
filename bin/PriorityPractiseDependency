@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Testing Priority">
+    <classes>
+      <class name="TestNgApp.PriorityPractise"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

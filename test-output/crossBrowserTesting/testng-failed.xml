@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [crossBrowserTesting]" parallel="tests">
+  <parameter name="Username" value="shallupahwa@gmail.com"/>
+  <parameter name="browser" value="Firefox"/>
+  <parameter name="Browser" value="Chrome"/>
+  <parameter name="Password" value="India15Great"/>
+  <test name="Cross Browser Testing Parameters Second time(failed)" parallel="tests">
+    <parameter name="Username" value="shallupahwa@gmail.com"/>
+    <parameter name="browser" value="Firefox"/>
+    <parameter name="Password" value="India15Great"/>
+    <classes>
+      <class name="TestNgApp.CrossBrowserOnMod5">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="OpenAUT"/>
+          <include name="OpenAUT"/>
+          <include name="OpenAUT"/>
+          <include name="LogIn"/>
+        </methods>
+      </class> <!-- TestNgApp.CrossBrowserOnMod5 -->
+    </classes>
+  </test> <!-- Cross Browser Testing Parameters Second time(failed) -->
+  <test name="Cross browser Testing on Mod 5 with setting Parameters(failed)" parallel="tests">
+    <parameter name="Username" value="shallupahwa@gmail.com"/>
+    <parameter name="Browser" value="Chrome"/>
+    <parameter name="Password" value="India15Great"/>
+    <classes>
+      <class name="TestNgApp.CrossBrowserOnMod5">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="OpenAUT"/>
+          <include name="OpenAUT"/>
+          <include name="OpenAUT"/>
+          <include name="LogIn"/>
+        </methods>
+      </class> <!-- TestNgApp.CrossBrowserOnMod5 -->
+    </classes>
+  </test> <!-- Cross browser Testing on Mod 5 with setting Parameters(failed) -->
+  <test name="Cross Browser Testing Parameters form another class file(failed)" parallel="tests">
+    <parameter name="Username" value="shallupahwa@gmail.com"/>
+    <parameter name="Browser" value="Chrome"/>
+    <parameter name="Password" value="India15Great"/>
+    <classes>
+      <class name="TestNgApp.CrossBrowserOnMod5">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="OpenAUT"/>
+          <include name="OpenAUT"/>
+          <include name="OpenAUT"/>
+          <include name="LogIn"/>
+        </methods>
+      </class> <!-- TestNgApp.CrossBrowserOnMod5 -->
+    </classes>
+  </test> <!-- Cross Browser Testing Parameters form another class file(failed) -->
+</suite> <!-- Failed suite [crossBrowserTesting] -->

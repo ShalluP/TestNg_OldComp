@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Enabling/grouping">
+	<test name="Enable/Group">
+		<groups>
+			<run>
+			
+			<exclude name ="contact"> </exclude>
+			<exclude name ="LogIn"> </exclude>
+			</run>
+		</groups>
+		<classes>
+			<class name="TestNgApp.EnableGrouping"></class>
+		</classes>
+	</test>
+</suite>
